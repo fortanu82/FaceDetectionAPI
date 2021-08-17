@@ -1,0 +1,15 @@
+<p>product-list works!</p>
+
+<ng-container *ngIf='productlist?.length;'>
+    <tbody *ngFor="let product of productlist">                                                                
+        <tr>            
+            Id: - <td>{{product.id}}</td> 
+            Name: - <td>{{product.name}}</td> 
+            Brand: - <td>{{product.brand}}</td> 
+            Price: - <td>{{product.price}}</td> 
+            Quantity: - <td>{{product.quantity}}</td> 
+        </tr>
+    </tbody>
+</ng-container>
+
+

@@ -22,7 +22,7 @@ namespace FaceDetectionDemoUpload.Controllers
             _logger = logger;
 
         }
-
+        //
         [HttpGet("UploadFile")]
         public void UploadFile()
         {
